@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title> <!-- RECORDAR NOMBRE DE LA PÁGINA -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/335623b583.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <h1>Lista de tareas</h1>
+
+    <div class="contenedor-tareas">
+        <div class="nueva-tarea">
+            <input type="text" id="nueva-tarea" placeholder="Nueva tarea">
+            <button id="btn-agregar">Agregar</button>
+        </div>
+
+        <div class="resumen-tareas">
+            <p>Total: <span id="total-tareas">0</span></p>
+            <p>Realizadas: <span id="tareas-realizadas">0</span></p>
+        </div>
+
+        <ul id="lista-tareas"></ul>
+    </div>
+
+<script src="./assets/js/script.js"></script>
+</body>
+</html>
